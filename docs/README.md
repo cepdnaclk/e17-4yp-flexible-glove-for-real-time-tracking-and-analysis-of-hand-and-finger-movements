@@ -9,18 +9,18 @@ title:
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Advancing Remote Training Through a Flexible Glove for Real-Time Tracking and Analysis of Hand and Finger Movements
 
 #### Team
 
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
-- eNumber, Name, [email](mailto:name@email.com)
+- E/17/065 , Kanishka Dilhan, [e17065@eng.pdn.ac.lk](mailto:e17065@eng.pdn.ac.lk)
+- E/17/212, Dananjaya Morais, [e17212@eng.pdn.ac.lk](mailto:e17212@eng.pdn.ac.lk)
+- E/17/312, Ishini Udara, [e17312@eng.pdnac.lk](mailto:e17312@eng.pdnac.lk)
 
 #### Supervisors
 
-- Name, [email](mailto:name@eng.pdn.ac.lk)
-- Name, [email](mailto:name@eng.pdn.ac.lk)
+- Prof. Roshan Ragel, [email](mailto:name@eng.pdn.ac.lk)
+- Dr. Titus Titus Jayarathna, [email](mailto:name@eng.pdn.ac.lk)
 
 #### Table of content
 

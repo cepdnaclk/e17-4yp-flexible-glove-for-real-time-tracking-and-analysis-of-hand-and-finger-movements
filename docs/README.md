@@ -59,6 +59,9 @@ The outcomes of this research have the potential to transform the way training i
   - Maximum/Minimum speed
   - Maximum/Minimum rotation degree
   - Smoothness
+ 
+## Solution Architecture
+![Solution Architecture](./images/solution_architecture.png)
 
 ## Experiment Setup and Implementation
 

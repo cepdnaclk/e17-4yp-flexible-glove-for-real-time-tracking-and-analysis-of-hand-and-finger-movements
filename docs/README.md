@@ -47,8 +47,6 @@ The outcomes of this research have the potential to transform the way training i
 
 ## Methodology
 
-[Describe the methodology used in your project. Include information about the following steps:]
-
 - Building firmware for hardware to acquire data
 - Implementing robust algorithms to process data from the 9-axis IMUs
 - Performing real-time analysis and wireless transmission of data
@@ -71,7 +69,7 @@ The outcomes of this research have the potential to transform the way training i
 ## Publications
 [//]: # "Note: Uncomment each once you uploaded the files to the repository"
 
- 1. [Semester 7 report]
+ 1. [Semester 7 report](./data/semester7_report.pdf)
 <!-- 2. [Semester 7 slides](./) -->
 <!-- 3. [Semester 8 report](./) -->
 <!-- 4. [Semester 8 slides](./) -->

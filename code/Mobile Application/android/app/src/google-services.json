@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "517872216233",
+    "project_id": "flex-glove",
+    "storage_bucket": "flex-glove.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517872216233:android:ce04459614649a3a9021b8",
+        "android_client_info": {
+          "package_name": "com.example.flex_glove_application5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "517872216233-qtmjosn86vr7kiiheo4pjvmr3kb0thkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs_uNcsSmx95BInr2T7mGEmWcYG2e1mXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "517872216233-qtmjosn86vr7kiiheo4pjvmr3kb0thkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

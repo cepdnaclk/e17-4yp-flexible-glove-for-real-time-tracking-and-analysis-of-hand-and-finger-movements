@@ -23,21 +23,23 @@ class _LoginState extends State<Login> {
         email: email,
         password: password,
       );
-
-      // User successfully logged in
       print('User logged in: ${userCredential.user?.email}');
+      // Navigate to the home screen after successful login
+      Navigator.pushReplacementNamed(context, 'Home_Trainee');
+    } catch (e) {
+      // Handle login errors
+      print('Error logging in: $e');
+      // User successfully logged in
+
       // Show success toast
       Fluttertoast.showToast(
-        msg: "Login successful!",
+        msg: "Login Error!",
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIosWeb: 1,
         backgroundColor: Colors.green,
         textColor: Colors.black,
       );
-    } catch (e) {
-      // Handle login errors
-      print('Error logging in: $e');
     }
   }
 

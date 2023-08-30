@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:fluttertoast/fluttertoast.dart';
 
 class Register extends StatefulWidget {
   const Register({Key? key}) : super(key: key);
@@ -60,10 +61,26 @@ class _RegisterState extends State<Register> {
         'role': role,
       });
 
+      Fluttertoast.showToast(
+        msg: "Registered Successfully",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.green,
+        textColor: Colors.black,
+      );
       // Show a success message or navigate to the next screen
       // You can use a SnackBar or showDialog to display a success message
       print('User registered successfully!');
     } catch (e) {
+      Fluttertoast.showToast(
+        msg: e.toString(),
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.BOTTOM,
+        timeInSecForIosWeb: 1,
+        backgroundColor: Colors.green,
+        textColor: Colors.black,
+      );
       // Handle any errors that occur during registration
       // You can show an error message using SnackBar or showDialog
       print('Error registering user: $e');

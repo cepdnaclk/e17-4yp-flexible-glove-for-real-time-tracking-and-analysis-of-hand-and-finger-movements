@@ -64,6 +64,18 @@ The outcomes of this research have the potential to transform the way training i
 ![Solution Architecture](./images/solution_architecture.png)
 
 ## Experiment Setup and Implementation
+### Flex Glove Implementation
+
+1. Configured the Pololu USB to Serial Adapter
+
+    Configuring the Pololu USB to Serial Adapter involves setting up the communication parameters of the adapter, such as baud rate and serial port settings. 
+
+2. Uploaded a program to test ESP board
+
+3. Got sensor data from 9 IMUs
+
+    Obtaining sensor data from 9 IMUs (Inertial Measurement Units) implies collecting information from nine sets of sensors that measure accelerations, gyroscopic rates, and sometimes magnetic fields.
+
 
 ## Results and Analysis
 

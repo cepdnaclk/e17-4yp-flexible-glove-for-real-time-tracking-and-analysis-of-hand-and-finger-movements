@@ -98,8 +98,13 @@ When selecting the transmission technology, Focused on
   - Data Transfer rate
   - Power Consumption
 
+    ![Power Consumption](./images/PowerConsumtion.jpg)
 
     Since we display movements real-time, Transmission speed is taken in to priority.
+    
+    ![Transmission Time](./images/TransmissionTime.jpg)
+
+
 
     Therefore we chose Wi-Fi as the transmission media
 

@@ -11,7 +11,7 @@
 - Prof. Roshan Ragel, [email](mailto:name@eng.pdn.ac.lk)
 - Dr. Titus Titus Jayarathna, [email](mailto:name@eng.pdn.ac.lk)
 
-## Abstract
+## Introduction
 
 In recent years, remote training has gained significant attention as a means to bridge geographical distances and enable individuals to improve their skills remotely. However, accurately tracking, analyzing, and comparing complex hand and finger movements in real-time poses a critical challenge in remote training, as it is essential for providing precise feedback and facilitating skill development. This project focuses specifically on the application of flexible sensor gloves in surgical training.
 

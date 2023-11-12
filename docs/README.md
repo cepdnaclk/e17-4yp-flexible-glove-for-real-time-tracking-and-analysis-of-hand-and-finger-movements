@@ -76,8 +76,70 @@ The outcomes of this research have the potential to transform the way training i
 
     Obtaining sensor data from 9 IMUs (Inertial Measurement Units) implies collecting information from nine sets of sensors that measure accelerations, gyroscopic rates, and sometimes magnetic fields.
 
+### Data Transmission to Mobile App
+1. Dual Core Architecture
+    - Use two cores
+        - Core 0 - for collecting data
+        - Core 1 - for Sending data
+
+    - Use Semaphore Handle for core synchronization
+  
+2. Socket Server and Client
+    - ESP32 WROOM acts as a socket server
+
+    - Mobile application act as client
 
 ## Results and Analysis
+
+#### Optimizing Data Transmission
+
+1. Transmission Technology Selection (Wi - Fi vs Bluetooth)
+When selecting the transmission technology, Focused on 
+  - Data Transfer rate
+  - Power Consumption
+
+
+    Since we display movements real-time, Transmission speed is taken in to priority.
+
+    Therefore we chose Wi-Fi as the transmission media
+
+2. Moving Average Filter
+
+- Smooth out fluctuations in data and reduce noise.
+
+- Reduces the overall bandwidth required for transmission.
+
+- Allows less frequent sampling of the signal.
+
+3. Sampling Rate Adjustment
+
+- Lowering the sampling rate when high precision is not needed.
+
+- Can save bandwidth.
+
+- There are two levels of sampling rate.
+
+-- Data sent without sampling rate adjustment - 188
+
+-- Data sent with sampling rate adjustment - 95
+
+4. Data Compression
+ - Run Length Encoding was used
+
+#### 3D Visualization
+
+### Outcomes and Impact
+
+1. Functioning Glove
+-     Convenient for users 
+
+2. Mobile Application
+-     Realtime visualization 
+         and feedback
+
+3. Research paper
+-     Optimization techniques of data transmission
+-     Implementation of the flexible glove 
 
 ## Conclusion
 

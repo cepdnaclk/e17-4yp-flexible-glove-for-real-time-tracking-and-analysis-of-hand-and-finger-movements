@@ -43,8 +43,6 @@ To address this challenge, this research proposal aims to develop a cutting-edge
 
 The outcomes of this research have the potential to transform the way training is conducted, particularly in the field of surgical skills development. By leveraging the capabilities of the flexible glove and advanced algorithms, this project aims to revolutionize remote learning by enabling individuals to reach new levels of skill and proficiency. Additionally, the technology developed in this project holds potential for applications in various fields, including music education, sports coaching, sign language detection, virtual reality gaming, and physical rehabilitation.
 
-## Related works
-
 ## Methodology
 
 - Building firmware for hardware to acquire data
@@ -104,9 +102,11 @@ When selecting the transmission technology, Focused on
     
     ![Transmission Time](./images/TransmissionTime.jpg)
 
-
-
     Therefore we chose Wi-Fi as the transmission media
+
+    This is the experimental setup used for that
+
+    ![Experimental Set up](./images/experiment1.jpg)
 
 2. Moving Average Filter
 
@@ -117,6 +117,8 @@ When selecting the transmission technology, Focused on
 - Allows less frequent sampling of the signal.
 
 3. Sampling Rate Adjustment
+
+![Sampling Rate](./images/flowdiagram1.jpg)
 
 - Lowering the sampling rate when high precision is not needed.
 
@@ -130,6 +132,8 @@ When selecting the transmission technology, Focused on
 
 4. Data Compression
  - Run Length Encoding was used
+
+ ![Transmission Time](./images/dataprocess.jpg)
 
 #### 3D Visualization
 
@@ -162,8 +166,8 @@ When selecting the transmission technology, Focused on
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/repository-name)
-- [Project Page](https://cepdnaclk.github.io/repository-name)
+- [Project Repository](https://github.com/cepdnaclk/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements)
+- [Project Page](https://cepdnaclk.github.io/e17-4yp-flexible-glove-for-real-time-tracking-and-analysis-of-hand-and-finger-movements/)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 

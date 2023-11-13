@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'drop_down_helper.dart'; // Import the chart page file
 
 class Trainee_homepage extends StatelessWidget {
   @override
@@ -32,15 +33,19 @@ class Trainee_homepage extends StatelessWidget {
             },
           ),
           FeatureTile(
-            icon: Icons.feedback,
-            title: 'Feedback',
+            icon: Icons.bar_chart,
+            title: 'Reports',
             onTap: () {
               // Add your logic for handling Feedback feature here
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => DropDownHelper()), // Navigate to the chart page
+              );
             },
           ),
           FeatureTile(
-            icon: Icons.bar_chart,
-            title: 'Reports',
+            icon: Icons.feedback,
+            title: 'Feedback',
             onTap: () {
               // Add your logic for handling Reports feature here
             },
